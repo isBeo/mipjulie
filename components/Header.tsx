@@ -18,6 +18,7 @@ const Header = () => {
                     src={logo}
                     alt='Midwife Inspired logo'
                     width={192}
+                    priority
                     height={192}
                 />
                 <h1 title='Midwife Inspire Plus'
