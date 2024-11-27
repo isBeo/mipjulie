@@ -44,6 +44,7 @@ body {
   color:var(--secColor);
   font-style: italic;
   margin: 30px;
+  text-align: center;
 
 }
 .menu a:active{
@@ -57,4 +58,11 @@ body {
   border-radius: 8px;
   text-align: center;
   padding:4px;
+}
+.desktop a{
+  font-weight: bold;
+}
+.desktop a:hover{
+  /* background-color: red; */
+  text-decoration: underline;
 }
