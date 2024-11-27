@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --pryColor:#525d0c;
+  --secColor:rgb(189,170,77);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.toggle{
+  display: flex;
+  flex-direction: column ;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  gap:5;
+}
+.toggle span{
+  width:100%;
+  background-color: black;
+  outline:1px solid black;
+  height: 3px;
+}
+.menu{
+  width:100%;
+  background-color: var(--pryColor);
+
+}
+.menu a{
+  color:var(--secColor);
+  font-style: italic;
+  margin: 30px;
+
+}
+.menu a:active{
+  color: color-mix(in srgb, var(--pryColor) ,var(--secColor) 60%);
+  outline: 1px solid var(--secColor);
+  text-align: center;
+}
+.menu a:hover{
+  background-color: var(--secColor);
+  color:var(--pryColor);
+  border-radius: 8px;
+  text-align: center;
+  padding:4px;
+}
