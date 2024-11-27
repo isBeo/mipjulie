@@ -23,9 +23,11 @@ const Nav = () => {
                 flex justify-between items-center
                 p-3 text-2xl mt-3 border shadow-sm">
                 <input type="search" name="" id=""
-                    placeholder='Search on MIP' />
+                    placeholder='Search on MIP' 
+                    className='w-4/5'/>
                 <FaSearch 
                     size={30} 
+                    style={{width:'20%'}}
                     color='#525d0c'/>
             </div>
 
