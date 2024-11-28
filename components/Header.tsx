@@ -68,19 +68,20 @@ const Header = () => {
                 flex items-center gap-5  ">
                 <FaFacebook
                     size={30}
-                    color='#525d0c'
+                    
+                    color='blue'
                      />
                 <FaInstagram
                     size={30}
-                    color='#525d0c'
+                    color='red'
                      />
                 <FaWhatsapp
                     size={30}
-                    color='#525d0c'
+                    color='green'
                      />
                 <FaYoutube
                     size={30}
-                    color='#525d0c'
+                    color='red'
                      />
             </div>
             </div>

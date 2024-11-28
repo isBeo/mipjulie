@@ -67,3 +67,18 @@ body {
   /* background-color: red; */
   text-decoration: underline;
 }
+
+.herolg{
+  background-image: url('../public/fdoc/miphome.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.herop{
+  text-shadow: 0 0 6px var(--pryColor);
+}
+
+button{
+  margin: 10px;
+}
